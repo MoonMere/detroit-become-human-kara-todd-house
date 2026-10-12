@@ -14,15 +14,15 @@ This is an unofficial fan recreation of the house from the game's 'A New Home' c
 
 A 3D model of the whole house that you can walk around in a web browser. You will play in third person as a new android designed for this project, who takes Kara's place and does the housework. Until that character is made, a grey placeholder figure stands in.
 
-## How it is made
+## How I am making it with AI
 
-I am making this with AI. I set the direction, and AI coding agents in Claude Code do the building.
+Claude Code writes all of the code, from the Python scripts that build the house in Blender to the three.js code that runs it in the browser. My part is deciding what the game should be, judging the results and changing course when something is not working.
 
-* Python scripts written by the AI build the whole house and everything in it inside Blender, a free 3D program.
-* Blender works out the light of an overcast afternoon ahead of time and saves it into the textures.
-* The house then loads into a web page with three.js, a free tool for showing 3D graphics in web pages. After each batch of changes, automated test runs walk through the house and check that the doors and chores still work.
-
-Labels, book covers, framed pictures and the image on the TV are made by script.
+* Earlier versions of the house were built in browser code. One night the AI worked for seven hours, and the result was no better than an hour's work the night before. I asked why it was not using Blender and had it rebuild one kitchen corner in Blender as a small test, judged by a separate AI. Blender clearly won, so I had the whole house rebuilt in Blender.
+* I noticed the walkway between the coffee table and the TV was far narrower than in the game, which the AI's own checks had missed. I then required the AI to measure five things in every comparison with the game: layout, furnishings, materials, light and camera framing. Working to that rule, the AI measured every room again and reworked the layout of the whole house.
+* I generated the android's concept art with an AI image generator over many attempts, and I chose her look, from the hairstyle to the outfit. When the first head the AI built was still poor after six hours, with eyes I rated 1 out of 10, I decided to rebuild the head with Epic's MetaHuman.
+* I set the scope and the limits. The game covers the whole chapter, upstairs and the backyard included, and must run at 30 frames per second or more on my fanless MacBook Air. Anything that costs a lot of work or frame rate and that players would not notice can be cut, so the street out the front is only scenery.
+* I have given several rounds of feedback on the AI's story drafts. For example, I pointed out that at least half the players will have played the original game, so the story need not hide who the main character is. I also asked that players who only want to wander around for five minutes be looked after too.
 
 ## Where it is up to
 
