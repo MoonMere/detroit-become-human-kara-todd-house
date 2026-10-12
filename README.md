@@ -4,7 +4,9 @@ This is an unofficial fan recreation of the house from the game's 'A New Home' c
 
 **Status: work in progress.** This repository holds screenshots only. The source code is private.
 
-![The living room, lit by a table lamp](images/01_living_room.jpg)
+![Walking through the kitchen, entry hall, dining area and living room in the browser, with the grey placeholder figure](images/00_walkthrough.gif)
+
+*Walking through the ground floor in the browser, with the grey placeholder figure.*
 
 ## What it is
 
@@ -35,6 +37,10 @@ Labels, book covers, framed pictures and the image on the TV are made by script.
 * Add the story, the remaining chores, animation and sound.
 
 ## More pictures
+
+![The living room, lit by a table lamp](images/01_living_room.jpg)
+
+*The living room, lit by a table lamp.*
 
 ![The dining area](images/02_dining_area.jpg)
 
