@@ -1,3 +1,5 @@
+<p align="right"><a href="https://github.com/MoonMere/detroit-become-human-kara-todd-house/blob/main/README.zh-CN.md"><kbd>中文</kbd></a></p>
+
 # Kara and Todd's House from Detroit: Become Human, Recreated in the Browser
 
 This is an unofficial fan recreation of the house from the game's 'A New Home' chapter, made as a personal project with no commercial purpose. It contains no assets from the game and is not affiliated with Sony Interactive Entertainment or Quantic Dream. If a rights holder asks, I will take it down.
